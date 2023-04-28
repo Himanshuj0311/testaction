@@ -2,4 +2,5 @@ on : push
 jobs :
       first-job :
           runs-on : ubuntu-latest
-                  - run : node--version
+          step :
+               - run : node--version
